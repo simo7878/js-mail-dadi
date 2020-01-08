@@ -7,3 +7,8 @@ var numeriDado = [1,2,3,4,5,6];
 alert('turno Player 1');
 var numeroPlayer1 = Math.floor(Math.random() * 6) + 1;
 console.log(numeroPlayer1);
+
+//player 2 lancio dado random
+alert('turno Player2');
+var numeroPlayer2 = Math.floor(Math.random() * 6) + 1;
+console.log(numeroPlayer2);
