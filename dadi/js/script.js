@@ -12,3 +12,14 @@ console.log(numeroPlayer1);
 alert('turno Player2');
 var numeroPlayer2 = Math.floor(Math.random() * 6) + 1;
 console.log(numeroPlayer2);
+
+//confronto tra i due numeri e vincita numero maggiore
+if(numeroPlayer1>numeroPlayer2){
+  console.log('Player1 Wins');
+}
+else if(numeroPlayer1==numeroPlayer2){
+  console.log('parity');
+}
+else{
+  console.log('Player2 Wins');
+}
